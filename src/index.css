@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, #14232b, #416f85, #43a6d8, #02a2ff);
+  background-size: 300% 300%;
+  animation: gradientAnimation 8s ease infinite;
+  color: #ffffff;
+}
+
+/* Animated Background */
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Main Container */
+.container {
+  width: 500px;
+  background-color: #2a3d4f;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Counter Title */
+h1 {
+  font-size: 2rem;
+  color: #FFD933;
+  margin-bottom: 1rem;
+}
+
+/* Counter Box */
+.counter-box {
+  background-color: #1c2b3a;
+  padding: 1.2rem;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFD933;
+  box-shadow: inset 0 0 8px rgba(255, 217, 51, 0.5);
+  margin-bottom: 1.5rem;
+}
+
+/* Buttons Group */
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Buttons */
+button {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+/* Increment Button */
+.increment-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.increment-btn:hover {
+  background-color: #66bb6a;
+}
+
+/* Decrement Button */
+.decrement-btn {
+  background-color: #d9534f;
+  color: white;
+}
+
+.decrement-btn:hover {
+  background-color: #e57373;
+}
+
+/* Reset Button */
+.reset-btn {
+  background-color: #FFD933;
+  color: #203541;
+}
+
+.reset-btn:hover {
+  background-color: #ffe04f;
+}
+
+/* Input Fields Layout */
+.input-group {
+  display: flex;
+  flex-direction: column; /* Stack input fields vertically */
+  gap: 1rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+input[type="number"] {
+  padding: 0.8rem;
+  width: 100%; /* Make input field expand to container width */
+  border-radius: 8px;
+  border: 2px solid #FFD933;
+  font-size: 1.2rem;
+  color: #203541;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* Calculator Buttons */
+.calculator-btn {
+  background-color: hsl(162, 60%, 50%);
+  color: white;
+}
+
+.calculator-btn:hover {
+  background-color: hsl(162, 58%, 38%);
+}
+
+/* New Field Button */
+.NewField-btn {
+  background-color: hsl(219, 88%, 55%);
+  color: white;
+}
+
+.NewField-btn:hover {
+  background-color: hsl(219, 77%, 66%);
+}
+
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Remove button styling */
+.remove-btn {
+  background-color: #f44336;
+  color: white;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.remove-btn:hover {
+  background-color: #e57373;
+}

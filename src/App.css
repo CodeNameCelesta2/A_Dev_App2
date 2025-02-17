@@ -1,0 +1,43 @@
+/* Container for layout */
+
+
+.container {
+  font-family: 'Arial', sans-serif;
+  max-width: 200vh;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* Table Styling */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.data-table th,
+.data-table td {
+  padding: 12px 15px;
+  border: 1px solid #FFD933;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  color: #333;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #9d93938c;
+}
+
+/* Compact and modern design */
+.data-table tbody tr:hover {
+  background-color: #9d939324;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #ffffff;
+}
