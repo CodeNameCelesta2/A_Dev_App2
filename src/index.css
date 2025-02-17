@@ -25,7 +25,7 @@ body {
 
 /* Main Container */
 .container {
-  width: 350px;
+  width: 300px;
   background-color: #2a3d4f;
   padding: 2rem;
   border-radius: 1rem;
@@ -35,7 +35,7 @@ body {
 
 /* Counter Title */
 h1 {
-  font-size: 2rem;
+  font-size: 1rem;
   color: #FFD933;
   margin-bottom: 1rem;
 }
@@ -43,7 +43,7 @@ h1 {
 /* Counter Box */
 .counter-box {
   background-color: #1c2b3a;
-  padding: 1.2rem;
+  padding: 1rem;
   border-radius: 8px;
   font-size: 1.5rem;
   font-weight: bold;

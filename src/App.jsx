@@ -13,6 +13,7 @@ function app(){
       <br></br>
       <br></br>
       <h1 class="text-center">Alejandro A. Cayasa</h1>
+      <h1 class="text-center">Gwapo</h1>
       <Increment/>
       <Calculator/>
     </>
